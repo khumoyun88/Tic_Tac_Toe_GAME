@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tikTakToe game</title>
+    <link rel="stylesheet" href="./tikTakToe.css">
+</head>
+<body>
+    <body>
+        <!-- headline -->
+        <div class="headline">
+            <h1 class="gameName" >Tic Tac Toe Game</h1>
+        </div>
+
+            <!-- choice -->
+        <div class="choice1">
+            <h1 class="title">which player you want to be?</h1>
+            <button class="player"  onclick="start(0);" value="0">0</button>
+            <p class="or">or</p>
+            <button class="player" onclick="start(1);" value="1">X</button>
+        </div>
+            <!-- choice -->
+        <!-- <div class="choice2">
+            <h1 class="title">with whome do you want to play</h1>
+            <button class="player"  onclick="start2(0);" value="0">computer</button>
+            <p class="or">or</p>
+            <button class="player" onclick="start2(1);" value="1">with friend</button>
+        </div> -->
+
+
+        <div class=" container">
+            <input id="b1" class="box" type="text" readonly onclick="func(this.id);k()">
+            <input id="b2" class="box" type="text" readonly onclick="func(this.id);k()">
+            <input id="b3" class="box" type="text" readonly onclick="func(this.id);k()"><br>
+            <input id="b4" class="box" type="text" readonly onclick="func(this.id);k()">
+            <input id="b5" class="box" type="text" readonly onclick="func(this.id);k()">
+            <input id="b6" class="box" type="text" readonly onclick="func(this.id);k()"><br>
+            <input id="b7" class="box" type="text" readonly onclick="func(this.id);k()">
+            <input id="b8" class="box" type="text" readonly onclick="func(this.id);k()">
+            <input id="b9" class="box" type="text" readonly onclick="func(this.id);k()">
+        </div>
+
+         <!-- modal1 -->
+         <div class="modal1">
+            <h1 class="title2">won </h1> 
+            <button class="restartBtn" onclick="window.location.reload()">restart</button>   
+         </div>
+
+        
+         
+        
+  
+     </body>
+      <script src="./tikTakToe.js"></script>
+    
+</body>
+</html>
